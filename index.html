@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MP3</title>
+</head>
+<body>
+
+    <header>
+            <h2>Reproductor MP3 Rock Nacional</h2>
+    </header>
+
+    <audio src="/media/La Muralla Verde.mp3" id="player"></audio>
+
+    <div class="botones">
+        <p id="btnPlay"><ion-icon name="play-circle-outline"></ion-icon>
+        </p>
+        <p id="btnPause"><ion-icon name="pause-circle-outline"></ion-icon></p>
+        <p id="btnStop"><ion-icon name="stop-circle-outline"></ion-icon></p>
+        <p id="random"><ion-icon name="shuffle-outline"></ion-icon></p>
+        <input type="range" id="volume" value=".3" max="1" step=".1">
+    </div>
+
+    <div class="canciones">
+        <h2>Canciones</h2>
+        <h3 id="song">1- La Muralla Verde</h3>
+        <h3 id="song">2- Yegua Babasonicos</h3>
+        <h3 id="song">3- Vampi Babasonicos</h3>
+        <h3 id="song">4- Mil Horas Los Abuelos De La Nada</h3>
+        <h3 id="song">5- Magia Blanca Turf</h3>
+        <h3 id="song">6- Crimen Gustavo Cerati</h3>
+        <h3 id="song">7- Asi Es El Calor</h3>
+        <h3 id="song">8- Imagenes Paganas Virus</h3>
+        <h3 id="song">9- Flaca Andrés Calamaro</h3>
+    </div>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
